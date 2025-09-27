@@ -1,18 +1,15 @@
-# AIGC Compliance SDKs
+# AIGC Compliance Go SDK
 
-Official SDKs for AIGC Compliance API in multiple programming languages.
+[![Go Version](https://img.shields.io/badge/go-%3E%3D1.18-blue)](https://golang.org/dl/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Report Card](https://goreportcard.com/badge/github.com/aigc-compliance/go-sdk)](https://goreportcard.com/report/github.com/aigc-compliance/go-sdk)
+[![GitHub](https://img.shields.io/github/stars/aigc-compliance/go-sdk?style=social)](https://github.com/aigc-compliance/go-sdk)
 
-## Available SDKs
+**Official Go SDK for AIGC Compliance API** - AI content detection and watermarking with EU GDPR and China Cybersecurity Law compliance.
 
-- **Python** (`aigc-compliance`) - PyPI
-- **Node.js** (`@aigc-compliance/sdk`) - npm  
-- **PHP** (`aigc-compliance/php-sdk`) - Packagist
-- **Java** (`com.aigc-compliance:java-sdk`) - Maven Central
-- **Go** (`github.com/aigc-compliance/go-sdk`) - Go Modules
+> 🌟 **Professional SDK** | ⚡ **High Performance** | 🛡️ **Enterprise Ready** | 🌍 **Global Compliance**
 
-## Quick Start
-
-Each SDK is 100% compliant with the official API documentation at https://www.aigc-compliance.com/docs AIGC Compliance SDK - Complete Implementation Suite
+## 🚀 Quick Start AIGC Compliance SDK - Complete Implementation Suite
 
 This repository contains the **complete implementation** of all SDKs and backend services for the AIGC Compliance API, making everything promised in the official documentation **100% real and functional**.
 
