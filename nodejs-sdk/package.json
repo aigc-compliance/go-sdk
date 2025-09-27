@@ -1,0 +1,75 @@
+{
+  "name": "@aigc-compliance/sdk",
+  "version": "1.0.1",
+  "description": "Official Node.js SDK for AIGC Compliance API - AI content detection and watermarking with EU GDPR and China Cybersecurity Law compliance",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "prepublishOnly": "npm run build && npm test",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "aigc",
+    "compliance",
+    "ai-detection",
+    "watermark",
+    "gdpr",
+    "cybersecurity-law",
+    "content-safety",
+    "machine-learning",
+    "api-client",
+    "sdk"
+  ],
+  "author": {
+    "name": "AIGC Compliance Team",
+    "email": "support@aigc-compliance.com",
+    "url": "https://www.aigc-compliance.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aigc-compliance/nodejs-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aigc-compliance/nodejs-sdk/issues"
+  },
+  "homepage": "https://www.aigc-compliance.com/docs",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "jest": "^29.5.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.4.4",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
